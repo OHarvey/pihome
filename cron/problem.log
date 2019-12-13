@@ -1,0 +1,80 @@
+[36m
+   _____    _   _    _                             
+  |  __ \  (_) | |  | |                            
+  | |__) |  _  | |__| |   ___    _ __ ___     ___  
+  |  ___/  | | |  __  |  / _ \  | |_  \_ \   / _ \ 
+  | |      | | | |  | | | (_) | | | | | | | |  __/ 
+  |_|      |_| |_|  |_|  \___/  |_| |_| |_|  \___| 
+ [0m 
+     [45m S M A R T   H E A T I N G   C O N T R O L [0m 
+[31m*******************************************************
+*   Boiler Script Version 0.53 Build Date 31/01/2018  *
+*   Update on 10/07/2019                              *
+*                                Have Fun - PiHome.eu *
+*******************************************************
+ [0m 
+[36m2019-12-10 15:34:59[0m - Boiler Script Started 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Day of the Week: [41m2[0m 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m38[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Utility Controller: [41m101[0m Controller Child: [41m1[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Utility Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m22.7[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m39[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Entrance Controller: [41m101[0m Controller Child: [41m2[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Entrance Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m21.3[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m40[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Lounge Controller: [41m101[0m Controller Child: [41m3[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Lounge Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m21.3[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m41[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Guest Room Controller: [41m101[0m Controller Child: [41m4[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Guest Room Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m20.9[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m42[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Wellness Room Controller: [41m102[0m Controller Child: [41m1[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Wellness Room Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m17.7[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m43[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Day Room Controller: [41m102[0m Controller Child: [41m2[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Day Room Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m22.2[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m44[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Kitchen Controller: [41m102[0m Controller Child: [41m3[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Kitchen Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m21.7[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m45[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Master Bed Controller: [41m103[0m Controller Child: [41m1[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Master Bed Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m20.7[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m46[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Master Ensuite Controller: [41m103[0m Controller Child: [41m2[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Master Ensuite Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m19.2[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:34:59[0m - Zone ID: [41m47[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Lobby Controller: [41m105[0m Controller Child: [41m1[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:34:59[0m - Zone: Lobby Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m13.7[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:35:00[0m - Zone ID: [41m48[0m 
+[36m2019-12-10 15:35:00[0m - Zone: Ollies Bedroom Controller: [41m105[0m Controller Child: [41m2[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:35:00[0m - Zone: Ollies Bedroom Stop Cause: Schedule Target C Achieved - Target C:[41m20[0m Zone C:[31m21.2[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:35:00[0m - Zone ID: [41m49[0m 
+[36m2019-12-10 15:35:00[0m - Zone: Ollies Lounge Controller: [41m105[0m Controller Child: [41m3[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:35:00[0m - Zone: Ollies Lounge Stop Cause: No Schedule - Target C:[41m15[0m Zone C:[31m18.8[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:35:00[0m - Zone valve communication timeout for This Zone. Node Last Seen: 2019-11-20 12:49:07
+[36m2019-12-10 15:35:00[0m - Temperature sensor communication timeout for This Zone. Last temperature reading: 
+[36m2019-12-10 15:35:00[0m - Zone ID: [41m50[0m 
+[36m2019-12-10 15:35:00[0m - Zone: Study Controller: [41m104[0m Controller Child: [41m1[0m Zone Status: [41m0[0m 
+[36m2019-12-10 15:35:00[0m - Zone: Study Stop Cause: Zone fault - Target C:[41m15[0m Zone C:[31m0.4[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:35:00[0m - Boiler Switched Off At: 2019-12-10 15:30:02
+[36m2019-12-10 15:35:00[0m - Boiler Node ID: [41m100[0m Child ID: [41m1[0m 
+[36m2019-12-10 15:35:00[0m - Boiler GIOP: [41m24[0m Status: [41m1[0m (0=On, 1=Off) 
+[36m2019-12-10 15:35:00[0m - Boiler Fired Status: [41m0[0m 
+[36m2019-12-10 15:35:00[0m - Boiler Hysteresis Status: [41m0[0m 
+---------------------------------------------------------------------------------------- 
+[36m2019-12-10 15:35:00[0m - Boiler Script Ended 
+[32m****************************************************************************************[0m  
