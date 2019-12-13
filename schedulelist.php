@@ -135,7 +135,7 @@ require_once(__DIR__ . '/st_inc/functions.php');
 
 	<a style="color: #333; cursor: pointer; text-decoration: none;" data-toggle="collapse" data-parent="#accordion" href="#collapse' . $row['tz_id'] . '">
 	<div class="chat-body clearfix">
-	<div class="header text-info">&nbsp;&nbsp;' . $row['start'] . ' - ' . $row['end'] . ' &nbsp;&nbsp; ' . $row['schedule_nickname'] . '
+	<div class="header text-info">&nbsp;&nbsp;' . $row['start'] . ' - ' . $row['end'] . ' &nbsp;&nbsp; <span class="label label-info">' . $row['schedule_nickname'] . '</span>
     
 
 	<small class="pull-right pull-right-days">
