@@ -54,7 +54,7 @@ require_once(__DIR__ . '/st_inc/functions.php');
                 //following variable set to 0 on start for array index.
                 $sch_time_index = '0';
                 //$query = "SELECT time_id, time_status, `start`, `end`, tz_id, tz_status, zone_id, index_id, zone_name, temperature, max(temperature) as max_c FROM schedule_daily_time_zone_view group by time_id ORDER BY start asc";
-                $query = "SELECT time_id, time_status, `start`, `end`, WeekDays,tz_id, tz_status, zone_id, index_id, zone_name, temperature, FORMAT(max(temperature),2) as max_c FROM schedule_daily_time_zone_view WHERE holidays_id IS NULL group by time_id ORDER BY start asc";
+                $query = "SELECT time_id, time_status, `start`, `end`, WeekDays,tz_id, tz_status, zone_id, index_id, zone_name, temperature, FORMAT(max(temperature),2) as max_c, schedule_nickname FROM schedule_daily_time_zone_view WHERE holidays_id IS NULL group by time_id ORDER BY start asc";
                 $results = $conn->query($query);
                 while ($row = mysqli_fetch_assoc($results)) {
 
@@ -135,7 +135,7 @@ require_once(__DIR__ . '/st_inc/functions.php');
 
 	<a style="color: #333; cursor: pointer; text-decoration: none;" data-toggle="collapse" data-parent="#accordion" href="#collapse' . $row['tz_id'] . '">
 	<div class="chat-body clearfix">
-	<div class="header text-info">&nbsp;&nbsp;' . $row['start'] . ' - ' . $row['end'] . ' &nbsp;&nbsp; Test Name
+	<div class="header text-info">&nbsp;&nbsp;' . $row['start'] . ' - ' . $row['end'] . ' &nbsp;&nbsp; ' . $row['schedule_nickname'] . '
     
 
 	<small class="pull-right pull-right-days">
