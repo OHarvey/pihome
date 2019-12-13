@@ -153,7 +153,7 @@ $time_row = mysqli_fetch_assoc($results);
 
     <div class="form-group" class="control-label">
         <label><?php echo $lang['nickname']; ?></label>
-        <input class="form-control input-sm" type="text" id="nickname" name="nickname" value="<?php echo $_POST['nickname']; ?>" placeholder="Nickname">
+        <input class="form-control input-sm" type="text" id="nickname" name="nickname" value="<?php echo $time_row['nickname']; ?>" placeholder="Nickname">
         <div class="help-block with-errors">
         </div>
     </div>
